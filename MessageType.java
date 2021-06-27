@@ -1,0 +1,39 @@
+// Yannick Messinger, Jasmin Steiner, Markus Wagner
+
+public enum MessageType {
+
+    //MessageTypes Client
+    SEND_USERNAME,
+    SEND_PASSWORD,
+    SEND_LOGIN_DATA,
+    GET_ACTIVE_USERS,
+    LOGOUT,
+    CHAT_REQUEST,
+    CONFIRM_CHAT_REQUEST,
+    DECLINE_CHAT_REQUEST,
+    CURRENT_CHAT,
+
+    //UDP-Messages
+    SEND_UDP_DATA,
+    CHAT_MESSAGE,
+    MEDIA_MESSAGE,
+    CLOSE_CHAT,
+
+    //MessageTypes Server
+    SET_USERNAME,
+    USERNAME_EXISTS,
+    INVALID_USERNAME,
+    SET_PASSWORD,
+    INVALID_PASSWORD,
+    LOGIN_FAILED,
+    LOGIN_SUCCESSFUL,
+    SHOW_ACTIVE_USERS,
+    LOGOUT_SUCCESSFUL,
+    LOGOUT_FAILED,
+    RECEIVE_CHAT_REQUEST,
+    USER_NOT_EXISTS,
+    CHAT_NOT_POSSIBLE,
+    REQUEST_CONFIRMED,
+    REQUEST_DECLINED,
+
+}
