@@ -3,4 +3,4 @@
 
 ## Ablauf:
 * main Methode in Klasse "Server.java" starten (startet Server und wartet auf eingehende Verbindungsanfragen)
-* danach main Methode in Klasse "Client.java" starten, dann bitte Textanweisungen im Terminal folgen. 
+* danach main Methode in Klasse "Client.java" starten und Textanweisungen im Terminal folgen. 
